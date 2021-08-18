@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sample_dependencies</groupId>
+  <artifactId>sample_dependencies</artifactId>
+  <packaging>war</packaging>
+  <version>0.1</version>
+  <name>sample_dependencies</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.wicket:wicket-core</groupId>
+      <artifactId>org.apache.wicket:wicket-core</artifactId>
+      <version>3.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.codingandcoding</groupId>
+      <artifactId>com.github.codingandcoding</artifactId>
+      <version>7.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+
+
